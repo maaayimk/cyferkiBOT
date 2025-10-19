@@ -2,7 +2,7 @@ import random
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "8227286114:AAH-BsAVuLvqxLOL2mZQymqWcXazhsmPjM0"
+TOKEN = "cyferkiBOT_TOKEN"
 
 def gen_numbers_text():
     nums = random.sample(range(1, 16), 15)
@@ -47,3 +47,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
